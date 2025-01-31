@@ -1,6 +1,4 @@
 from pydantic_ai import Agent
-from httpx import AsyncClient
-from dataclasses import dataclass
 
 response_agent = Agent(
     'openai:gpt-4o',
